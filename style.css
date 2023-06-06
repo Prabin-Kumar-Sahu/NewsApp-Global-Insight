@@ -227,3 +227,19 @@ footer {
     
   }
 
+/* Styles for desktop screens */
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Styles for mobile screens */
+  @media (max-width: 600px) {
+    .news-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Adjust other styles as needed for mobile screens */
+  
